@@ -63,6 +63,15 @@ function App() {
               currTime={currentVideoTime}
               forceUpdateTimeSetter={setForceUpdateVideoTime} />
           </Stack>
+          <Stack spacing={1} justifyContent="flex-start" alignItems="center"
+            sx={{ width: '100%' }}>
+            <Typography variant="body2" sx={{ textAlign: "left", width: '100%' }}>
+              Video by <a href="https://orange.blender.org/">Elephants Dream</a> (Licensed under CreativeCommons)
+            </Typography>
+            <Typography variant="body2" sx={{ textAlign: "left", width: '100%' }}>
+              Transcript by <a href="https://github.com/videojs/video.js/blob/main/docs/examples/elephantsdream/captions.en.vtt">video.js sample</a> (Licensed under the Apache License, Version 2.0.)
+            </Typography>
+          </Stack>
         </Stack>
       </Box>
     </ThemeProvider>
