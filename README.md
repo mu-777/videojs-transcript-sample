@@ -1,6 +1,8 @@
 # Video+Transcript Sample
 
-## <b>See: https://mu-777.github.io/videojs-transcript-sample/ </b> 
+ <big><big><big><b>
+ See: https://mu-777.github.io/videojs-transcript-sample/
+ </b></big></big></big>
 
 If you play the video, the transcript is shown like youtube
 
